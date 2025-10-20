@@ -13,7 +13,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-slate-400 font-light">
-              &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+              &copy; {new Date().getFullYear()} Samar TRABELSI. All rights reserved.
             </p>
           </div>
 

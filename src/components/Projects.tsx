@@ -69,7 +69,7 @@ const Projects = () => {
             Featured <span className="font-bold bg-gradient-to-r from-rose-400 to-purple-400 bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-slate-300 text-lg max-w-2xl mx-auto font-light">
-            A collection of architectural and engineering projects showcasing innovation and creativity
+            A selection of civil engineering and BIM projects highlighting technical precision, digital innovation, and practical problem-solving.
           </p>
         </div>
 

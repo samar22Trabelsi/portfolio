@@ -57,8 +57,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white mb-1">LinkedIn</h4>
-                  <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-purple-400 transition-colors">
-                    linkedin.com/in/yourprofile
+                  <a href="https://www.linkedin.com/in/samar-trabelsi-88401a202/" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-purple-400 transition-colors">
+                    https://www.linkedin.com/in/samar-trabelsi-88401a202/
                   </a>
                 </div>
               </div>
@@ -69,9 +69,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white mb-1">GitHub</h4>
-                  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-pink-400 transition-colors">
-                    github.com/yourusername
-                  </a>
+                  <a href="https://github.com/samar22Trabelsi" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-pink-400 transition-colors">
+                    https://github.com/samar22Trabelsi                 </a>
                 </div>
               </div>
 
@@ -101,7 +100,7 @@ const Contact = () => {
 
               <div className="mb-6">
                 <label htmlFor="name" className="block text-white font-medium mb-2">
-                  Your Name
+                  Samar TRABELSI
                 </label>
                 <input
                   type="text"

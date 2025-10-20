@@ -50,11 +50,43 @@ const Hero = () => {
 
       <div className="max-w-6xl mx-auto px-6 py-20 text-center relative z-10">
         <div className="mb-8 perspective-1000">
-          <div className="relative inline-block">
-            <div className="absolute inset-0 bg-gradient-to-r from-rose-400 via-pink-400 to-purple-400 rounded-full blur-2xl opacity-50 animate-pulse-glow"></div>
-            <div className="relative w-40 h-40 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-rose-400/90 via-pink-400/90 to-purple-400/90 flex items-center justify-center text-white text-6xl font-light shadow-2xl transform transition-all duration-300 hover:scale-110 hover:rotate-3 backdrop-blur-sm border border-white/20">
-              <span className="font-serif">YN</span>
+          <div className="relative inline-block group">
+            {/* Gradient glow effect */}
+            <div className="absolute inset-0 bg-gradient-to-r from-rose-400 via-pink-400 to-purple-400 rounded-3xl blur-2xl opacity-50 animate-pulse-glow"></div>
+            
+            {/* Animated border gradient */}
+            <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-rose-400 via-pink-400 to-purple-400 p-[3px] animate-gradient-rotate">
+              <div className="h-full w-full rounded-3xl bg-slate-900"></div>
             </div>
+            
+{/* Photo container – version améliorée */}
+<div className="relative mx-auto mb-10 w-52 h-52 md:w-60 md:h-60 group">
+  {/* Outer soft glow */}
+  <div className="absolute inset-0 rounded-[2rem] bg-gradient-to-br from-rose-400 via-pink-400 to-purple-400 opacity-30 blur-xl group-hover:opacity-60 transition-all duration-700"></div>
+
+  {/* Gradient animated border */}
+  <div className="absolute inset-0 p-[2px] rounded-[2rem] bg-gradient-to-r from-rose-400 via-pink-400 to-purple-400 animate-gradient-rotate">
+    <div className="relative w-full h-full rounded-[2rem] bg-slate-900 overflow-hidden">
+      {/* Image */}
+      <img
+        src="src/album/samar.jpg" // ✅ déplace ton image dans le dossier public/album
+        alt="Samar TRABELSI - Civil Engineer"
+        className="absolute inset-0 w-full h-full object-cover object-center transform transition-transform duration-700 group-hover:scale-105 group-hover:rotate-1"
+      />
+
+      {/* Subtle overlay gradient */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-all duration-700"></div>
+
+      {/* Light reflection accent */}
+      <div className="absolute top-0 left-0 w-full h-1/3 bg-gradient-to-b from-white/20 to-transparent opacity-40 group-hover:opacity-60 transition-all duration-700"></div>
+    </div>
+  </div>
+</div>
+
+            {/* Floating particles effect */}
+            <div className="absolute top-0 left-0 w-2 h-2 bg-rose-400 rounded-full animate-float opacity-60"></div>
+            <div className="absolute bottom-0 right-0 w-3 h-3 bg-purple-400 rounded-full animate-float-delayed opacity-60"></div>
+            <div className="absolute top-1/4 right-0 w-2 h-2 bg-pink-400 rounded-full animate-float opacity-60" style={{ animationDelay: '1s' }}></div>
           </div>
         </div>
 
@@ -64,10 +96,10 @@ const Hero = () => {
         </div>
 
         <h1 className="text-6xl md:text-7xl font-light text-white mb-4 tracking-tight">
-          Your <span className="font-bold bg-gradient-to-r from-rose-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">Name</span>
+          Samar <span className="font-bold bg-gradient-to-r from-rose-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">TRABELSI</span>
         </h1>
         <p className="text-2xl md:text-3xl text-purple-200 mb-6 font-light">
-          Freelance Developer & Engineering Student
+          Civil Engineering Student | BIM Modeler
         </p>
         <p className="text-lg md:text-xl text-slate-300 mb-12 max-w-2xl mx-auto leading-relaxed font-light">
           Building the future with innovative architectural solutions and cutting-edge technology

@@ -20,8 +20,10 @@ const About = () => {
               <div>
                 <h3 className="text-2xl font-semibold text-white mb-3 group-hover:text-rose-400 transition-colors">Who I Am</h3>
                 <p className="text-slate-300 leading-relaxed font-light">
-                  A passionate civil engineer and architect combining creative design with technical precision.
-                  I transform innovative concepts into sustainable structures that shape our built environment.
+                  Final-year civil engineering student and freelance Revit modeler with proven skills in structural
+                   design and BIM. Experienced in delivering quality projects through a full-time work-study
+                    at a leading French industrial flooring company. Motivated, skilled, and ready to excel in a final-year internship.
+
                 </p>
               </div>
             </div>
@@ -36,8 +38,9 @@ const About = () => {
               <div>
                 <h3 className="text-2xl font-semibold text-white mb-3 group-hover:text-purple-400 transition-colors">My Education</h3>
                 <p className="text-slate-300 leading-relaxed font-light">
-                  Currently advancing my expertise in civil engineering and architecture through rigorous academic study
-                  complemented by hands-on project experience and cutting-edge design methodologies.
+                  I am a third-year Civil Engineering student, building on a strong foundation
+                   from my Higher Technician diploma in Building, and progressively developing
+                    advanced skills in structural design, project modeling, and hands-on construction methodologies.
                 </p>
               </div>
             </div>
@@ -52,8 +55,10 @@ const About = () => {
               <div>
                 <h3 className="text-2xl font-semibold text-white mb-3 group-hover:text-pink-400 transition-colors">Professional Work</h3>
                 <p className="text-slate-300 leading-relaxed font-light">
-                  Successfully delivered diverse architectural and engineering projects, mastering client collaboration,
-                  structural analysis, and creating solutions that balance aesthetics with functionality.
+                  Worked as a Revit Project Designer and Quantity Surveyor during my work-study program,
+                   then as a freelance BIM Modeler on industrial flooring projects. Skilled in structural
+                    modeling, project documentation, and client collaboration, delivering precise and efficient solutions.
+
                 </p>
               </div>
             </div>
@@ -68,8 +73,9 @@ const About = () => {
               <div>
                 <h3 className="text-2xl font-semibold text-white mb-3 group-hover:text-rose-400 transition-colors">My Vision</h3>
                 <p className="text-slate-300 leading-relaxed font-light">
-                  Seeking internship opportunities across Europe to contribute to groundbreaking architectural projects,
-                  collaborate with industry leaders, and advance sustainable urban development.
+                  I drive the digitalization and automation of civil engineering,
+                   delivering end-to-end solutions from structural analysis and design to BIM modeling, 
+                   calculation notes, cost estimation, and project planning—combining technical precision, autonomy, and sustainable innovation.
                 </p>
               </div>
             </div>
@@ -87,9 +93,11 @@ const About = () => {
               </h3>
             </div>
             <p className="text-slate-300 leading-relaxed max-w-3xl mx-auto font-light text-lg">
-              I bring a unique blend of artistic vision and engineering precision, enriched by academic excellence
-              and practical experience. My adaptability, dedication to sustainable design, and passion for innovation
-              ensure I deliver exceptional value to every project from day one.
+              I bring a strong foundation in civil engineering and hands-on experience in BIM modeling
+               and structural design. My adaptability, dedication to digitalization and automation, 
+               and passion for delivering precise, efficient, and sustainable solutions ensure I contribute real value to every project from day one.
+
+
             </p>
           </div>
         </div>
